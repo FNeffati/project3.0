@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TwitterExtractorComponent } from './twitter-extractor/twitter-extractor.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TwitterExtractorComponent
   ],
   imports: [
     BrowserModule,
